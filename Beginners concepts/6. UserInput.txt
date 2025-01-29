@@ -1,0 +1,21 @@
+// Type your username and press enter.  Create a string variable and get user input from the keyboard and store it in the variable.  Print the value of the variable (userName), which will display the input value.
+
+using System;
+
+namespace userInput
+{
+    class program6
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter UserName:");
+            string username = Console.ReadLine();
+            Console.WriteLine("Username is "+ username);
+            
+            //type conversion in user input
+            Console.WriteLine("Enter Your age: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your age is: " + age);
+        }
+    }
+}

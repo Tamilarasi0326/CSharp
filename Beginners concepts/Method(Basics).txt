@@ -1,0 +1,19 @@
+//Inside Main(), call the myMethod() method:
+
+using System;
+
+namespace Methods
+{
+   
+    class program
+    {
+        static void myMethod()
+        {
+            Console.WriteLine("Welcome to method part");
+        }
+        static void Main(string[] args)
+        {
+            myMethod();
+        }
+    }
+}

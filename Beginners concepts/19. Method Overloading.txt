@@ -1,0 +1,23 @@
+using System;
+
+namespace Methods
+{
+    class Program
+    {
+        static int MethodInt(int x, int y)
+        {
+            return x + y;
+        }
+        static double MethodDouble(double x, double y)
+        {
+            return x + y;
+        }
+        static void Main(string[] args)
+        {
+            int myNumInt = MethodInt(4 , 6);
+            double myNumDouble = MethodDouble(5.55, 6.66);
+            Console.WriteLine("Int: " + myNumInt);
+            Console.WriteLine("double: " + myNumDouble);
+        }
+    }
+}

@@ -1,0 +1,40 @@
+using System;
+
+namespace Operators
+{
+    class program7a
+    {
+        static void Main(string[] args)
+        {
+            //Addition = Adds together two values
+            int x = 10;
+            int y = 5 ;
+            int sum = x + y;
+            Console.WriteLine(sum);
+            
+            //Subtraction = Subtracts one value from another
+            int diff = x - y;
+            Console.WriteLine(diff);
+            
+            //Multiplication =	Multiplies two values
+            int mul = x * y;
+            Console.WriteLine(mul);
+            
+            //Division = Divides one value by another
+            int div= x/y;
+            Console.WriteLine(div);
+            
+            //Modulus	= Returns the division remainder
+            int modulus = 10 % 3;
+            Console.WriteLine(modulus);
+            
+            //Increment = Increases the value of a variable by 1
+            int incre = x ++;
+            Console.WriteLine(incre);
+        
+            //Decrement = Decreases the value of a variable by 1
+            int decre = x--;
+            Console.WriteLine(decre);
+        }
+    }
+}

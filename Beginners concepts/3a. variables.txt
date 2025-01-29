@@ -1,0 +1,15 @@
+//Create a variable called name of type string and assign it the value "John":
+
+using System;
+
+namespace variables
+{
+    class program3
+    {
+        static void Main(string[] args)
+        {
+            string name = "John";
+            Console.WriteLine(name);
+        }
+    }
+}

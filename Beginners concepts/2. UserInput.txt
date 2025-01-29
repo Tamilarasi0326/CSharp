@@ -1,0 +1,14 @@
+//Read the user input and write it.
+
+using System;
+
+namespace UserInput
+{
+    class program2
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(Console.ReadLine());
+        }
+    }
+}

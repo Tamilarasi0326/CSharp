@@ -1,0 +1,23 @@
+//The break statement can also be used to jump out of a loop.
+
+//code for jumps out of the loop when i is equal to 4:
+
+using System;
+
+namespace BreakStatement
+{
+    class program16
+    {
+        static void Main(string[] args)
+        {
+            for(int i = 0; i < 10; i++)
+            {
+                if(i == 4)
+                {
+                    break;
+                }
+                Console.WriteLine(i);
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+//A demonstration of how to declare variables of other types: 
+
+using System;
+
+namespace variables
+{
+    class program3
+    {
+        static void Main(string[] args)
+        {
+            int myNum = 20;
+            double myDoubleNum = 365.89;
+            char myLetter = 'T';
+            string myName = "Tamil";
+            bool myBool = true;
+            Console.WriteLine(myNum);
+            Console.WriteLine(myDoubleNum);
+            Console.WriteLine(myLetter);
+            Console.WriteLine(myName);
+            Console.WriteLine(myBool);
+        }
+    }
+}

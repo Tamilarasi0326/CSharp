@@ -1,0 +1,23 @@
+using System;
+
+namespace Strings
+{
+    class program9a
+    {
+        static void Main(string[] args)
+        {
+            //string declaration
+            string greeting = "Hello";
+            Console.WriteLine(greeting);
+            
+            //finding string length
+            string alphabet = "abcdefghijklmnopqrstuvwxyz";
+            Console.WriteLine(alphabet.Length);
+            
+            //uppercase and lowercase 
+            string txt = "Hello World";
+            Console.WriteLine(txt.ToUpper());
+            Console.WriteLine(txt.ToLower());
+        }
+    }
+}

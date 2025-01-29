@@ -1,0 +1,19 @@
+using System;
+
+namespace Methods
+{
+    class Program
+    {
+        static void myMethod(string Country = "Norway")
+        {
+            Console.WriteLine(Country);
+        }
+        static void Main(string[] args)
+        {
+            myMethod("India");
+            myMethod("England");
+            myMethod();
+            myMethod("Canada");
+        }
+    }
+}

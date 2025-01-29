@@ -1,0 +1,33 @@
+using System;
+
+namespace Operators
+{
+    class program7b
+    {
+        static void Main(string[] args)
+        {
+            int a = 3;
+            int b = 4;
+            int c = 4;
+            
+            //Equal to 
+            Console.WriteLine(b == c);
+            
+            //Not equal 
+            Console.WriteLine(a != b);
+            
+            //Greater than
+            Console.WriteLine( b > a);
+            
+            //Less than
+            Console.WriteLine( a < b);
+            
+            //Greater than or equal to
+            Console.WriteLine(b >= a);
+            
+            //Less than or equal to 
+            Console.WriteLine( a<= b);
+            
+        }
+    }
+}

@@ -1,0 +1,40 @@
+/* Implicit Casting (automatically) - converting a smaller type to a larger type size
+char -> int -> long -> float -> double
+
+Explicit Casting (manually) - converting a larger type to a smaller size type
+double -> float -> long -> int -> char */
+
+using System;
+
+namespace casting
+{
+    class program5
+    {
+        static void Main(string[] args)
+        {
+            //Implicit casting is done automatically when passing a smaller size type to a larger size type:
+            int myInt = 2;
+            double myDouble = myInt;
+            
+            Console.WriteLine(myInt);
+            Console.WriteLine(myDouble);
+            
+            //Explicit casting must be done manually by placing the type in parentheses in front of the value:
+            int a = 2;
+            double d = (double) a;
+            
+            Console.WriteLine(a);
+            Console.WriteLine(d);
+            
+            //It is also possible to convert data types explicitly by using built-in methods, such as Convert.ToBoolean, Convert.ToDouble, Convert.ToString, Convert.ToInt32 (int) and Convert.ToInt64 (long):
+            int hloInt = 10;
+            double hloDouble = 5.25;
+            bool hloBool = true;
+            
+            Console.WriteLine(Convert.ToString(hloInt));
+            Console.WriteLine(Convert.ToDouble(hloDouble));
+            Console.WriteLine(Convert.ToInt32(hloBool));
+            Console.WriteLine(Convert.ToString(hloBool));
+        }
+    }
+}

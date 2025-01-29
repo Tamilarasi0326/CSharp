@@ -1,0 +1,20 @@
+using System;
+
+namespace Operator
+{
+    class program7d
+    {
+        static void Main(string[] args)
+        {
+            //Logical And
+            int x = 3;
+            Console.WriteLine((x<5)&&(x<10));
+            
+            //Logical OR 
+            Console.WriteLine((x<5)||(x<4));
+            
+            //Logical Not
+            Console.WriteLine(!((x<5)&&(x<10)));
+        }
+    }
+}

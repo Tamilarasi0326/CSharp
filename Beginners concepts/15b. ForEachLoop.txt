@@ -1,0 +1,16 @@
+using System;
+
+namespace forEachLoop
+{
+    class program15b
+    {
+        static void Main(string[] args)
+        {
+            string[] cars = {"volvo", "BMW", "Toyato", "Ford"};
+            foreach(string i in cars)
+            {
+                Console.WriteLine(i);
+            }
+        }
+    }
+}

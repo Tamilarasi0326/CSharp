@@ -1,0 +1,16 @@
+//Create a variable called myNum of type int and assign it the value 15:
+
+using System;
+
+namespace variables
+{
+    class program3
+    {
+        static void Main(string[] args)
+        {
+            int myNum = 15;
+            Console.WriteLine(myNum);  
+        }
+        
+    }
+}

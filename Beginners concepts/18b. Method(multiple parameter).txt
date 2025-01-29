@@ -1,0 +1,18 @@
+using System;
+
+namespace Methods
+{
+    class Program
+    {
+        static void myMethod(string fname, int age)
+        {
+            Console.WriteLine(fname + " is " + age);
+        }
+        static void Main(string[] args)
+        {
+            myMethod("Liam", 5);
+            myMethod("Jenny", 8);
+            myMethod("Anja", 30);
+        }
+    }
+}

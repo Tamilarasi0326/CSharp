@@ -1,0 +1,30 @@
+
+
+using System;
+
+namespace dataTypes
+{
+    class program4
+    {
+        static void Main(string[] args)
+        {
+            int a = 550;
+            long b = 100200300400;
+            float c = 2.3F;
+            double d = 345.6;
+            decimal e = 3764.897M;
+            bool f = true;
+            char g = 'T';
+            string h = "Hello";
+            
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+            Console.WriteLine(e);
+            Console.WriteLine(f);
+            Console.WriteLine(g);
+            Console.WriteLine(h);
+        }
+    }
+}

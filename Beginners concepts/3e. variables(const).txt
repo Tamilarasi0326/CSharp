@@ -1,0 +1,15 @@
+//declare the variable as "constant", which means unchangeable and read-only
+
+using System;
+
+namespace variables
+{
+    class program3
+    {
+        static void Main(string[] args)
+        {
+            const double pi= 3.14;  //if we change this variable it will show error.  Because "const" keyword is used for unchangeable values.
+            Console.WriteLine(pi);
+        }
+    }
+}

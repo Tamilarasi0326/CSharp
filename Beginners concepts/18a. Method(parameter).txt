@@ -1,0 +1,19 @@
+using System;
+
+namespace Methods
+{
+    class program
+    {
+        static void myMethod(string fname)
+        {
+            Console.WriteLine("Hello " + fname);
+        }
+        
+        static void Main(string[] args)
+        {
+            myMethod("Jhon");
+            myMethod("Anja");
+            myMethod("Jenny");
+        }
+    }
+}

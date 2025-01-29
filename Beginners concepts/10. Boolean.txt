@@ -1,0 +1,18 @@
+//A boolean type is declared with the bool keyword and can only take the values true or false:
+
+using System;
+
+namespace boolean
+{
+    class program10
+    {
+        static void Main(string[] args)
+        {
+            bool isCSharpfun = true;
+            bool isFishTasty = false;
+            Console.WriteLine(isCSharpfun);
+            Console.WriteLine(isFishTasty);
+            
+        }
+    }
+}

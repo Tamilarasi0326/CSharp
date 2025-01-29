@@ -1,0 +1,20 @@
+using System;
+
+namespace Strings
+{
+    class program9c
+    {
+        static void Main(string[] args)
+        {
+            
+            string myString = "Hello";
+            Console.WriteLine(myString[0]);  //prints the first character in myString:
+            Console.WriteLine(myString[1]);  //prints the second character (1) in myString:
+            Console.WriteLine(myString.IndexOf("e"));  //find the index position of a specific character in a string, by using the IndexOf() method:
+            string name = "John Doe";
+            int charPos = name.IndexOf("D");
+            string lastName = name.Substring(charPos); //Another useful method is Substring(), which extracts the characters from a string, starting from the specified character position/index, and returns a new string. This method is often used together with IndexOf() to get the specific character position:
+            Console.WriteLine(lastName);
+        }
+    }
+}

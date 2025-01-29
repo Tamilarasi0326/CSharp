@@ -1,0 +1,18 @@
+using System;
+
+namespace Strings
+{
+    class program9d
+    {
+        static void Main(string[] args)
+        {
+            //The sequence \"  inserts a double quote in a string:
+            string txt = "We are the so-called \"vikings\" from the north.";
+            
+            //The sequence \'  inserts a single quote in a string:
+            string greeting = "It\'s alright.";
+            
+            
+        }
+    }
+}
